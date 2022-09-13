@@ -1,0 +1,325 @@
+@import "var";
+
+.breadCrumbs {
+    height: 148px;
+    background-color: #f8f3f4;
+    align-items: center;
+
+    .breadCrumbsHeader {
+        color: $siteColor;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+    .breadcrumb {
+        background-color: #f8f3f4;
+
+        .breadcrumbLink {
+            text-decoration: none;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 20px;
+            text-transform: uppercase;
+            /* Text style for "Home / Men" */
+            color: darkgray;
+        }
+
+        .breadcrumbLinkActive {
+            color: $siteColor;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 900;
+            line-height: 20px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.mainProduct {
+    justify-content: space-between;
+    margin-bottom: 8%;
+
+    .productNav {
+        .navDetails[open] > summary::after {
+            content: '\25B2';
+        }
+
+        .navDetails {
+            summary {
+                width: 243px;
+                height: 37px;
+                display: block;
+                color: $siteColor;
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: 900;
+                line-height: 35px;
+                text-transform: uppercase;
+                justify-content: space-between;
+                border-left: 5px solid #ef5b70;
+
+            }
+
+            summary::-webkit-details-marker {
+                display: none;
+            }
+
+            summary::after {
+                content: '\25BC';
+                padding-left: 0.5em;
+            }
+
+
+
+            .navDetailsLinks {
+                margin-left: 7%;
+
+                .navDetailsLink {
+                    text-decoration: none;
+                    color: #6f6e6e;
+                    font-family: Lato;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 33px;
+                }
+            }
+        }
+    }
+
+    .productRight {
+        width: 800px;
+
+        .productRightForm {
+            .formParameters {
+                justify-content: space-between;
+
+                .parametr {
+                    width: 263px;
+
+                    .parametrHeader {
+                        color: #6f6e6e;
+                        font-family: Lato;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 20px;
+                        text-transform: uppercase;
+                    }
+
+                    .parametrContentPrice {
+                        width: 263px;
+
+                        .parametrRange {
+                            color: $siteColor;
+                        }
+
+                        .parametrContentBottom {
+                            justify-content: space-between;
+
+                            .parametrContentBottomPrice {
+                                color: #6f6e6e;
+                                font-family: "Open Sans";
+                                font-size: 14px;
+                                font-weight: 400;
+                                font-style: normal;
+                                letter-spacing: normal;
+                                line-height: 26px;
+                                text-align: left;
+                                /* Text style for "$, 400" */
+                                font-style: normal;
+                                letter-spacing: normal;
+                                line-height: normal;
+                            }
+
+                        }
+                    }
+
+                    .parametrContent {
+                        flex-wrap: wrap;
+                        width: 176px;
+
+
+
+                        .trendingNowTextLink {
+                            text-decoration: none;
+                            color: #6f6e6e;
+                            font-family: Lato;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 26px;
+                        }
+
+                        .trendingNowTextCenter {
+                            color: #6f6e6e;
+                            font-family: Lato;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 26px;
+                            border-left: 1px solid #dfdfdf;
+                            border-right: 1px solid #dfdfdf;
+                        }
+
+                    }
+
+                    .parametrContentSize1 {
+                        width: 235px;
+                        align-items: center;
+
+                        .contentSize {
+                            width: 45px;
+                            margin-right: 10px;
+
+                            .contentCheckbox:not(:last-child) {
+                                margin-right: 5px;
+                            }
+
+                            .sizeText {
+                                color: #6f6e6e;
+                                font-family: Lato;
+                                font-size: 14px;
+                                font-weight: 400;
+                                font-style: normal;
+                                letter-spacing: normal;
+                                line-height: 20px;
+                                text-align: left;
+                                text-transform: uppercase;
+                                /* Text style for "X, S" */
+                                font-style: normal;
+                                letter-spacing: normal;
+                                line-height: normal;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .cardBottom {
+            justify-content: space-between;
+            align-items: center;
+
+            .pages {
+                padding-left: 1%;
+                padding-right: 1%;
+                justify-content: space-around;
+                align-items: center;
+                width: 261px;
+                height: 44px;
+                border-radius: 3px;
+                border: 1px solid #ebebeb;
+                background-color: #ffffff;
+
+                .numbers {
+                    width: 70%;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    .pagesNumber {
+                        text-decoration: none;
+                        color: #c4c4c4;
+                        font-family: Lato;
+                        font-size: 16px;
+                        font-weight: bold;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: 26px;
+                        text-align: left;
+                        /* Text style for "1," */
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: normal;
+                        /* Text style for "2     3" */
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: normal;
+
+                    }
+
+                    .active {
+                        color: $siteColor;
+                        font-family: Lato;
+                        font-size: 16px;
+                        font-weight: bold;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: 26px;
+                        text-align: left;
+                        /* Text style for "1," */
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: normal;
+                        /* Text style for "2     3" */
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: normal;
+                    }
+                }
+
+                .pagesArrowLeft {
+                    color: #aaaaaa;
+                    font-family: "Font Awesome";
+                    font-size: -20px;
+                    font-weight: bold;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: -26.15px;
+                    text-align: left;
+                    /* Text style for "" */
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                }
+
+                .pagesArrowRight {
+                    color: $siteColor;
+                    font-family: "Font Awesome";
+                    font-size: 20px;
+                    font-weight: bold;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: 26px;
+                    text-align: left;
+                    /* Text style for "" */
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                }
+            }
+
+            .viewAll {
+                text-decoration: none;
+                width: 150px;
+                height: 44px;
+                border-radius: 3px;
+                border: 1px solid $siteColor;
+                background-color: #ffffff;
+                color: $siteColor;
+                font-family: Lato;
+                font-size: 16px;
+                font-weight: bold;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 26px;
+                text-align: left;
+                /* Text style for "V, iew All" */
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+
+                justify-content: center;
+                align-items: center;
+                transition: 0.2s;
+
+                &:hover {
+                    background-color: #f16d7f;
+                    color: #ffffff;
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+}

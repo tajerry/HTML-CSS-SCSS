@@ -1,0 +1,240 @@
+@charset "UTF-8";
+.breadCrumbs {
+  height: 148px;
+  background-color: #f8f3f4;
+  align-items: center; }
+  .breadCrumbs .breadCrumbsHeader {
+    color: #f16d7f;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase; }
+  .breadCrumbs .breadcrumb {
+    background-color: #f8f3f4; }
+    .breadCrumbs .breadcrumb .breadcrumbLink {
+      text-decoration: none;
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 20px;
+      text-transform: uppercase;
+      /* Text style for "Home / Men" */
+      color: darkgray; }
+    .breadCrumbs .breadcrumb .breadcrumbLinkActive {
+      color: #f16d7f;
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: 900;
+      line-height: 20px;
+      text-transform: uppercase; }
+
+.mainProduct {
+  justify-content: space-between;
+  margin-bottom: 8%; }
+  .mainProduct .productNav .navDetails[open] > summary::after {
+    content: '\25B2'; }
+  .mainProduct .productNav .navDetails summary {
+    width: 243px;
+    height: 37px;
+    display: block;
+    color: #f16d7f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 35px;
+    text-transform: uppercase;
+    justify-content: space-between;
+    border-left: 5px solid #ef5b70; }
+  .mainProduct .productNav .navDetails summary::-webkit-details-marker {
+    display: none; }
+  .mainProduct .productNav .navDetails summary::after {
+    content: '\25BC';
+    padding-left: 0.5em; }
+  .mainProduct .productNav .navDetails .navDetailsLinks {
+    margin-left: 7%; }
+    .mainProduct .productNav .navDetails .navDetailsLinks .navDetailsLink {
+      text-decoration: none;
+      color: #6f6e6e;
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 33px; }
+  .mainProduct .productRight {
+    width: 800px; }
+    .mainProduct .productRight .productRightForm .formParameters {
+      justify-content: space-between; }
+      .mainProduct .productRight .productRightForm .formParameters .parametr {
+        width: 263px; }
+        .mainProduct .productRight .productRightForm .formParameters .parametr .parametrHeader {
+          color: #6f6e6e;
+          font-family: Lato;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 20px;
+          text-transform: uppercase; }
+        .mainProduct .productRight .productRightForm .formParameters .parametr .parametrContentPrice {
+          width: 263px; }
+          .mainProduct .productRight .productRightForm .formParameters .parametr .parametrContentPrice .parametrRange {
+            color: #f16d7f; }
+          .mainProduct .productRight .productRightForm .formParameters .parametr .parametrContentPrice .parametrContentBottom {
+            justify-content: space-between; }
+            .mainProduct .productRight .productRightForm .formParameters .parametr .parametrContentPrice .parametrContentBottom .parametrContentBottomPrice {
+              color: #6f6e6e;
+              font-family: "Open Sans";
+              font-size: 14px;
+              font-weight: 400;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 26px;
+              text-align: left;
+              /* Text style for "$, 400" */
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: normal; }
+        .mainProduct .productRight .productRightForm .formParameters .parametr .parametrContent {
+          flex-wrap: wrap;
+          width: 176px; }
+          .mainProduct .productRight .productRightForm .formParameters .parametr .parametrContent .trendingNowTextLink {
+            text-decoration: none;
+            color: #6f6e6e;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 26px; }
+          .mainProduct .productRight .productRightForm .formParameters .parametr .parametrContent .trendingNowTextCenter {
+            color: #6f6e6e;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 26px;
+            border-left: 1px solid #dfdfdf;
+            border-right: 1px solid #dfdfdf; }
+        .mainProduct .productRight .productRightForm .formParameters .parametr .parametrContentSize1 {
+          width: 235px;
+          align-items: center; }
+          .mainProduct .productRight .productRightForm .formParameters .parametr .parametrContentSize1 .contentSize {
+            width: 45px;
+            margin-right: 10px; }
+            .mainProduct .productRight .productRightForm .formParameters .parametr .parametrContentSize1 .contentSize .contentCheckbox:not(:last-child) {
+              margin-right: 5px; }
+            .mainProduct .productRight .productRightForm .formParameters .parametr .parametrContentSize1 .contentSize .sizeText {
+              color: #6f6e6e;
+              font-family: Lato;
+              font-size: 14px;
+              font-weight: 400;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 20px;
+              text-align: left;
+              text-transform: uppercase;
+              /* Text style for "X, S" */
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: normal; }
+    .mainProduct .productRight .cardBottom {
+      justify-content: space-between;
+      align-items: center; }
+      .mainProduct .productRight .cardBottom .pages {
+        padding-left: 1%;
+        padding-right: 1%;
+        justify-content: space-around;
+        align-items: center;
+        width: 261px;
+        height: 44px;
+        border-radius: 3px;
+        border: 1px solid #ebebeb;
+        background-color: #ffffff; }
+        .mainProduct .productRight .cardBottom .pages .numbers {
+          width: 70%;
+          align-items: center;
+          justify-content: space-around; }
+          .mainProduct .productRight .cardBottom .pages .numbers .pagesNumber {
+            text-decoration: none;
+            color: #c4c4c4;
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: bold;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 26px;
+            text-align: left;
+            /* Text style for "1," */
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            /* Text style for "2     3" */
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal; }
+          .mainProduct .productRight .cardBottom .pages .numbers .active {
+            color: #f16d7f;
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: bold;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 26px;
+            text-align: left;
+            /* Text style for "1," */
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            /* Text style for "2     3" */
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal; }
+        .mainProduct .productRight .cardBottom .pages .pagesArrowLeft {
+          color: #aaaaaa;
+          font-family: "Font Awesome";
+          font-size: -20px;
+          font-weight: bold;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: -26.15px;
+          text-align: left;
+          /* Text style for "" */
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: normal; }
+        .mainProduct .productRight .cardBottom .pages .pagesArrowRight {
+          color: #f16d7f;
+          font-family: "Font Awesome";
+          font-size: 20px;
+          font-weight: bold;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 26px;
+          text-align: left;
+          /* Text style for "" */
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: normal; }
+      .mainProduct .productRight .cardBottom .viewAll {
+        text-decoration: none;
+        width: 150px;
+        height: 44px;
+        border-radius: 3px;
+        border: 1px solid #f16d7f;
+        background-color: #ffffff;
+        color: #f16d7f;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 26px;
+        text-align: left;
+        /* Text style for "V, iew All" */
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s; }
+        .mainProduct .productRight .cardBottom .viewAll:hover {
+          background-color: #f16d7f;
+          color: #ffffff;
+          transform: scale(1.05); }
+
+/*# sourceMappingURL=product.css.map */

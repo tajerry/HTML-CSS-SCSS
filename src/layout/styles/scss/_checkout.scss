@@ -1,0 +1,188 @@
+.ckeckoutMain {
+    padding-top: 89px;
+    justify-content: space-between;
+
+    .productNav {
+        
+
+        .navDetails {
+            summary {
+                width: 243px;
+                height: 37px;
+                display: block;
+                color: #222222;
+                font-family: Lato;
+                font-size: 16px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: left;
+                text-transform: uppercase;
+                justify-content: space-between;
+
+
+            }
+
+            summary::-webkit-details-marker {
+                display: none;
+            }
+
+            
+
+            .navDetailsBlock {
+                padding-top: 39px;
+                width: 1140px;
+                justify-content: flex-start;
+                border-bottom: 1px solid #eeeeee;
+                padding-bottom: 39px;
+
+                .detailsLeft {
+                    margin-right: 293px;
+
+                    .detailsHeader {
+                        color: #222222;
+                        font-family: Lato;
+                        font-size: 13px;
+                        font-weight: 700;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: normal;
+                        text-align: left;
+                        text-transform: uppercase;
+                    }
+
+                    .detailsText {
+                        color: #b3b2b2;
+                        font-family: Lato;
+                        font-size: 13px;
+                        font-weight: 400;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: 20px;
+                        text-align: left;
+                    }
+
+
+
+                    .inputs {
+                        align-items: center;
+
+
+                        .leftInputHeader {
+                            color: #222222;
+                            font-family: Lato;
+                            font-size: 12px;
+                            font-weight: 400;
+                            font-style: normal;
+                            letter-spacing: normal;
+                            line-height: normal;
+                            text-transform: uppercase;
+                            padding-left: 14px;
+                            align-content: center;
+                        }
+
+                    }
+                }
+
+                .detailsRight {
+                    .detailsHeader {
+                        color: #222222;
+                        font-family: Lato;
+                        font-size: 13px;
+                        font-weight: 700;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: normal;
+                        text-align: left;
+                        text-transform: uppercase;
+                    }
+
+                    .detailsText {
+                        color: #b3b2b2;
+                        font-family: Lato;
+                        font-size: 13px;
+                        font-weight: 400;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: 20px;
+                        text-align: left;
+                    }
+
+                    .detailsRightText {
+                        color: #ff0d0d;
+                        font-family: Lato;
+                        font-size: 13px;
+                        font-weight: 400;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: 20px;
+                        text-align: left;
+                    }
+
+
+                    .inputHeader {
+                        padding-bottom: 8px;
+                        color: #222222;
+                        font-family: Lato;
+                        font-size: 12px;
+                        font-weight: 400;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: normal;
+                        text-align: left;
+                        text-transform: uppercase;
+
+                        span {
+                            color: #ff0d0d;
+                        }
+                    }
+
+                    .rightBottom {
+                        align-items: center;
+                        justify-content: space-between;
+
+                        .detailsBtn {
+                            /* Style for "Rectangle" */
+                            width: 180px;
+                            height: 50px;
+                            border: 1px solid #eaeaea;
+                            background-color: #ffffff;
+                            color: #4a4a4a;
+                            font-family: Lato;
+                            font-size: 14px;
+                            font-weight: 700;
+                            font-style: normal;
+                            letter-spacing: normal;
+                            line-height: normal;
+                            text-align: center;
+                            text-transform: uppercase;
+                            margin-right: 32px;
+                            transition: 0.2s;
+
+                            &:hover {
+                                background-color: #f16d7f;
+                                color: #ffffff;
+                                transform: scale(1.1);
+                            }
+                        }
+
+                        .forgotPas {
+                            text-decoration: none;
+                            color: #222222;
+                            font-family: Lato;
+                            font-size: 14px;
+                            font-weight: 400;
+                            font-style: normal;
+                            letter-spacing: normal;
+                            line-height: 20px;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@import "var";

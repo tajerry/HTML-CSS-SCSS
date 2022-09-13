@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>New Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../src/layout/styles/css/style.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ff71248ab6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="center d-flex ">
+        <div class="row d-flex justify-content-space-between col-lg-12 mt-4">
+            <div class="brandForm d-flex col-lg-10 col-md-8 align-items-center justify-content-start">
+                  <a class="logo__link d-flex" href="index.html"><div class="logo d-flex mr-5">
+                        <img class="logoImage mr-3" src="../src/assets/img/Group_2.png" alt="">
+                        
+                            <h3 class="mt-2 logoHeader">BRAN<span>D</span></h3>
+                        
+                        </div></a>
+                <div class="headerForm d-flex align-items-center">
+                    <div class="dropdown">
+                        <button class="browse btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Browse
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <div class="women  d-flex flex-column ml-3 ">
+                                <h2>Women</h2>
+                                <div class="dropdown-divider"></div>
+                                <p>Dresses</p>
+                                <p>Tops</p>
+                                <p>Sweaters/Knits</p>
+                                <p>Jackets/Coats</p>
+                                <p>Blazers</p>
+                                <p>Denim</p>
+                                <p>Leggings/Pants</p>
+                                <p>Skirts/Shorts</p>
+                                <p>Accessories </p>
+                                <p>Bags/Purses</p>
+                                <p>Swimwear/Underwear</p>
+                                <p>Nightwear</p>
+                                <p>Shoes</p>
+                                <p>Beauty</p>
+                            </div>
+                            <div class="man d-flex flex-column ml-3">
+                                <h2>Man</h2>
+                                <div class="dropdown-divider"></div>
+                                <p>Tees/Tank tops</p>
+                                <p>Shirts/Polos</p>
+                                <p>Sweaters</p>
+                                <p>Sweatshirts/Hoodies</p>
+                                <p>Blazers</p>
+                                <p>Jackets/vests</p>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="text" class="pl-2 pr-2 searchFor" placeholder="Search for...">
+                    <a href="index.html">
+                        <button class="search"><img src="../src/assets/img/search.png" alt=""></button>
+                    </a>
+                </div>
+            </div>
+            <div class="cartMyAccount d-flex align-items-center  justify-content-end">
+                <div class="dropdown cart">
+                    <a class="dropdownNav cart btn btn-secondary link1" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="../src/assets/img/cart.png" alt="">
+                    </a>
+
+                    <div class="dropdown-menu dropCart" aria-labelledby="dropdownMenuButton">
+                        <div class="products d-flex flex-column">
+                            <a class="cartLink" href="">
+                                <div class="productCart d-flex ml-3 mt-2 mb-3">
+                                    <div class="leftProductCart d-flex">
+                                        <img src="../src/assets/img/Layer_43.png" class="photoProductCart" alt="Product Photo">
+                                        <div class="productCartContent d-flex flex-column mt-2 ml-2">
+                                            <h2 class="headerproductCart">
+                                                Rebox Zane
+                                            </h2>
+                                            <img src="../src/assets/img/stars.png" alt="" class="stars mb-2">
+                                            <p class="priceCart">1 x $250</p>
+                                        </div>
+                                    </div>
+                                    <div class="krest d-flex mr-3"><img src="../src/assets/img/krest.png" alt="" class="krest"></div>
+                                </div>
+                            </a>
+
+                            <a class="cartLink" href="">
+                                <div class="productCart d-flex ml-3 mt-2 mb-3">
+                                    <div class="rightProductCart d-flex">
+                                        <img src="../src/assets/img/Layer_44.png" alt="Product Photo">
+                                        <div class="productCartContent mt-2 ml-2">
+                                            <h2 class="headerproductCart">
+                                                Rebox Zane
+                                            </h2>
+                                            <img src="../src/assets/img/stars.png" alt="" class="stars mb-2">
+                                            <p class="priceCart">1 x $250</p>
+                                        </div>
+                                    </div>
+                                    <div class="krest d-flex mr-3"><img src="../src/assets/img/krest.png" alt="" class="krest"></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="totalPrice d-flex mt-4">
+                            <h2 class="totalCart">
+                                total
+                            </h2>
+                            <h2 class="priceTotal">
+                                $500.00
+                            </h2>
+                        </div>
+                        <div class="buttonsCart d-flex mt-4 flex-column">
+                            <button class="checkout">checkout</button>
+                            <button class="goToCart">go to cart</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="dropdown">
+                    <button class="myAccount d-flex align-items-center myAccount btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        My Account
+                    </button>
+                    <div class="dropdown-menu dropCart" aria-labelledby="dropdownMenuButton"></div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <nav class="nav navbar navbar-expand-lg navbar-light ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="justify-content-center collapse navbar-collapse" id="navbarNav">
+            <ul class="mt-4 navbar-nav">
+                <li class="mr-5 nav-item nav-item1 active">
+                    <a class="nav-link link1" href="../public/index.html">home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="mr-5 nav-item nav-item1 active">
+                    <a class="nav-link link1" href="#">man <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="mr-5 nav-item nav-item1 active">
+                    <div class="dropdown ">
+                        <a class="dropdownNav btn btn-secondary link1 " href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            WOMEN
+                        </a>
+
+                        <div class="dropdown-menu  womenDropDown " aria-labelledby="dropdownMenuLink">
+                            <div class="womenDropDownMenu d-flex">
+                                <div class="card cardLeft">
+                                    <div class="card-body ">
+                                        <h5 class="card-title womenCardTitle">women</h5>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link link2 active" href="#">Dresses</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link link2" href="#">Tops</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link link2" href="#">Sweaters/Knits</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link link2" href="#">Jackets/Coats</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link link2" href="#">Blazers</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link link2" href="#">Denim</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link link2" href="#">Leggings/Pants</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link link2" href="#">Skirts/Shorts</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link link2" href="#">Accessories </a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <div class="card cardCenter">
+                                    <div class="topCard">
+                                        <div class="card-body">
+                                            <h5 class="card-title womenCardTitle">women</h5>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link link2 active" href="#">Dresses</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link link2" href="#">Tops</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link link2" href="#">Sweaters/Knits</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link link2" href="#">Jackets/Coats</a>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                    <div class="bottomCard ">
+                                        <div class="card-body">
+                                            <h5 class="card-title womenCardTitle">women</h5>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link link2 active" href="#">Dresses</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link link2" href="#">Tops</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link link2" href="#">Sweaters/Knits</a>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card cardRight">
+                                    <div class="topRight">
+                                        <div class="card-body">
+                                            <h5 class="card-title womenCardTitle">women</h5>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a class="nav-link link2 active" href="#">Dresses</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link link2" href="#">Tops</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link link2" href="#">Sweaters/Knits</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link link2" href="#">Jackets/Coats</a>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                    <div class="bottomRight d-flex mb-3">
+                                        <h2 class="headerBottomRight mr-3">super<br>sale!</h2>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mr-5 nav-item nav-item1 active">
+                    <a class="nav-link link1" href="#">Kids <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="mr-5 nav-item nav-item1 active">
+                    <a class="nav-link link1" href="#">Accoseriese <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="mr-5 nav-item nav-item1 active">
+                    <a class="nav-link link1" href="#">Featured <span class="sr-only">(current)</span></a>
+                </li>
+                <li class=" nav-item active nav-item1">
+                    <a class="nav-link link1" href="#">Hot Deals <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="breadCrumbs center d-flex">
+        <h1 class="breadCrumbsHeader">NEW ARRIVALS</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a class="breadcrumbLink" href="../public/index.html">Home</a></li>
+                <li class="breadcrumb-item"><a class="breadcrumbLink" href="#">MAN</a></li>
+                <li class="breadcrumb-item active breadcrumbLinkActive" aria-current="page">NEW ARRIVALS</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="productDetails d-flex flex-column container p-0">
+        <div class="productHeaders d-flex  row pb-2 mt-5 ">
+            <div class="productHeadersLeft d-flex col-lg-3 p-0">
+                <h3 class="productHeader productHeaderLeft">Product Details</h3>
+            </div>
+            <div class="productHeadersRight d-flex col-lg-7  p-0">
+                <h3 class="productHeader productHeaderRight ">unite price</h3>
+                <h3 class="productHeader productHeaderRight">quantity</h3>
+                <h3 class="productHeader productHeaderRight">shipping</h3>
+                <h3 class="productHeader productHeaderRight">subtotal</h3>
+                <h3 class="productHeader productHeaderRight">action</h3>
+            </div>
+        </div>
+        <div class="productsInCart d-flex row  ">
+            <div class="productName d-flex col-lg-4">
+                <a href=""><img src="../src/assets/img/shopingImg1.png" alt=""></a>
+                <div class="productsInCartContent ml-3">
+                    <a class="products__link"  href=""><div class="productsInCartHeader  mb-4">Mango People T-shirt</div></a>
+                    <div class="productsInCartParametr ">
+                        <div class="productsInCartParametrColor mb-2">Color: <span>Red</span></div>
+                        <div class="productsInCartParametrSize">Size: <span>XII</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="productSpecification d-flex col-lg-7">
+                <div class="unitePrice d-flex">
+                    $150
+                </div>
+                <input type="number" class="quantity pl-3 pr-3">
+                <div class="shipping d-flex  ">FREE</div>
+                <div class="subtotal d-flex ">$300</div>
+                <a href=""><div class="action d-flex "><img src="../src/assets/img/krest.png" alt=""></div></a>
+            </div>
+        </div>
+         <div class="productsInCart d-flex row  ">
+            <div class="productName d-flex col-lg-4">
+                <a href=""><img src="../src/assets/img/shoppingImg2.png" alt=""></a>
+                <div class="productsInCartContent ml-3">
+                    <a class="products__link"  href=""><div class="productsInCartHeader  mb-4">Mango People T-shirt</div></a>
+                    <div class="productsInCartParametr ">
+                        <div class="productsInCartParametrColor mb-2">Color: <span>Red</span></div>
+                        <div class="productsInCartParametrSize">Size: <span>XII</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="productSpecification d-flex col-lg-7">
+                <div class="unitePrice d-flex">
+                    $150
+                </div>
+               <input type="number" class="quantity pl-3 pr-3">
+                <div class="shipping d-flex  ">FREE</div>
+                <div class="subtotal d-flex ">$300</div>
+                <a href=""><div class="action d-flex "><img src="../src/assets/img/krest.png" alt=""></div></a>
+            </div>
+        </div>
+         <div class="productsInCart d-flex row  ">
+            <div class="productName d-flex col-lg-4">
+                <a  href=""><img src="../src/assets/img/shoppingCartImg3.png" alt=""></a>
+                <div class="productsInCartContent ml-3">
+                    <a class="products__link" href=""><div class="productsInCartHeader  mb-4">Mango People T-shirt</div></a>
+                    <div class="productsInCartParametr ">
+                        <div class="productsInCartParametrColor mb-2">Color: <span>Red</span></div>
+                        <div class="productsInCartParametrSize">Size: <span>XII</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="productSpecification d-flex col-lg-7">
+                <div class="unitePrice d-flex">
+                    $150
+                </div>
+                <input type="number" class="quantity pl-3 pr-3">
+                <div class="shipping d-flex  ">FREE</div>
+                <div class="subtotal d-flex ">$300</div>
+                <a href=""><div class="action d-flex "><img src="../src/assets/img/krest.png" alt=""></div></a>
+            </div>
+        </div>
+        <div class="productsButtons d-flex mt-5">
+            <button class="clearShoppingCart">clear shopping cart</button>
+            <button class="continueShopping">cONTINUE sHOPPING</button>
+        </div>
+        <form action="#" class="productsForm d-flex mt-5">
+            <div class="productsFormLeft d-flex">
+                <div class="productsFormLeftShippingAdress d-flex flex-column">
+                    <h3 class="productsFormLeftShippingAdressHeader">Shipping Adress</h3>
+                   <div class="productsFormLeftShippingAdressCity d-flex">
+                       <input type="text" class="productsFormLeftShippingAdressInput" placeholder="Bangladesh">
+                       <a href="" class="d-flex arrowDownLink"><img src="../src/assets/img/arrowDown.png" alt="" class="arrowDown"></a>
+                   </div>
+                     <input type="text" class="productsFormLeftShippingAdressInput" placeholder="State">
+                      <input type="text" class="productsFormLeftShippingAdressInput" placeholder="Postcode / Zip">
+                    <button class="productsFormLeftShippingAdressButton">get a quote</button>
+                </div>
+                <div class="productsFormLeftCouponDiscount d-flex flex-column">
+                    <h3 class="productsFormLeftCouponDiscountHeader">coupon  discount</h3>
+                    <p class="productsFormLeftCouponDiscountText">Enter your coupon code if you have one</p>
+                    <input type="text" class="productsFormLeftCouponDiscountInput" placeholder="State">
+                    <button class="productsFormLeftCouponDiscountButton">Apply coupon</button>
+                </div>
+            </div>
+            <div class="productsFormRight d-flex flex-column">
+                <div class="productsFormRightTotal d-flex flex-column">
+                    <div class="subTotal d-flex">
+                        <h4 class="subTotalHeader">sub total</h4>
+                        <div class="subtotalPrice">$900</div>
+                    </div>
+                    <div class="grandTotal d-flex">
+                        <h3 class="grandTotalHeader">grand total</h3>
+                        <div class="grandTotalPrice">$900</div>
+                    </div>
+                </div>
+                <button class="proceedToCheckout">proceed to checkout</button>
+            </div>
+        </form>
+    </div>
+    <div class="subscribe  mt-5">
+        <div class="containerSubscribe center">
+            <div class="row d-flex justify-content-space-between">
+                <div class="leftSubscribe col-lg-6 d-flex ">
+                    <a href=""><img src="../src/assets/img/Layer_40.png" class="imgLeftSubscribe mr-4" alt=""></a>
+                    <div class="contentLeft d-flex flex-column mt-1">
+                        <blockquote class="blockquoteLeftContent">
+                            <i>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                                a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</i>
+                        </blockquote>
+                        <div class="contact d-flex flex-column">
+                            <h4 class="leftContentHeader">Bin Burhan</h4>
+                            <p class="leftContentText">Dhaka, Bd</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightSubscribe col-lg-6 d-flex">
+                    <div class="formSubscribe d-flex flex-column">
+                        <div class="contentFormSubscribe d-flex flex-column">
+                            <h2 class="headerFormSubscribe">Subscribe</h2>
+                            <p class="textFormSubscribe"> FOR OUR NEWLETTER AND PROMOTION</p>
+                        </div>
+                        <div class="inputSubscribe d-flex mt-5">
+                            <input type="email" class="inputForm" placeholder="Enter your email">
+                            <button class="btnSubscribe d-flex pr-1">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class=" ">
+        <div class="footerNav d-flex center">
+            <div class="leftFooterNav d-flex flex-column mt-5 mr-5">
+                <div class="brandLeftFooter ">
+                    <a class="logoHeader" href="index.html"><div class="logo d-flex">
+                        <img class="logoImage mr-3" src="../src/assets/img/Group_2.png" alt="">
+                        
+                            <h3 class="mt-2 logoHeader">BRAN<span>D</span></h3>
+                        
+                        </div></a>
+                    <div class="contentLeftFooter d-flex flex-column mt-4">
+                        <p class="textLeftFooter1">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </p>
+                        <p class="textLeftFooter2">Efficiently plagiarize 24/365 action items and focused infomediaries.
+                            Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <div class="rightFooterNav mt-5  d-flex">
+                    <div class="columnRightFooter">
+                        <h2 class="headerColumn">COMPANY</h2>
+                        <a class="navLinkFooter" href="../public/index.html">
+                            <h3 class="navColumn">Home </h3>
+                        </a>
+                        <a class="navLinkFooter" href="">
+                            <h3 class="navColumn">Shop</h3>
+                        </a>
+                        <a class="navLinkFooter" href="">
+                            <h3 class="navColumn">About</h3>
+                        </a>
+                        <a class="navLinkFooter" href="">
+                            <h3 class="navColumn">How It Works</h3>
+                        </a>
+                        <a class="navLinkFooter" href="">
+                            <h3 class="navColumn">Contact</h3>
+                        </a>
+                    </div>
+                    <div class="columnRightFooter">
+                        <h2 class="headerColumn">INFORMATION</h2>
+                        <a class="navLinkFooter" href="">
+                            <h3 class="navColumn">Tearms & Condition</h3>
+                        </a>
+                        <a class="navLinkFooter" href="">
+                            <h3 class="navColumn">Privacy Policy</h3>
+                        </a>
+                        <a class="navLinkFooter" href="">
+                            <h3 class="navColumn">How to Buy</h3>
+                        </a>
+                        <a class="navLinkFooter" href="">
+                            <h3 class="navColumn">How to Sell</h3>
+                        </a>
+                        <a class="navLinkFooter" href="">
+                            <h3 class="navColumn">Promotion</h3>
+                        </a>
+                    </div>
+                    <div class="columnRightFooter">
+                        <h2 class="headerColumn">SHOP CATEGORY</h2>
+                        <a class="navLinkFooter" href="">
+                            <h3 class="navColumn">Men</h3>
+                        </a>
+                        <a class="navLinkFooter" href="">
+                            <h3 class="navColumn">Women</h3>
+                        </a>
+                        <a class="navLinkFooter" href="">
+                            <h3 class="navColumn">Child</h3>
+                        </a>
+                        <a class="navLinkFooter" href="">
+                            <h3 class="navColumn">Apparel</h3>
+                        </a>
+                        <a class="navLinkFooter" href="">
+                            <h3 class="navColumn">Brows All</h3>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="footerCopSoc d-flex center  ">
+            <div class="container containerFooter  d-flex">
+                <div class="copyright d-flex">
+                    <img src="../src/assets/img/copyright.png" alt="copyright">
+                </div>
+                <div class="social d-flex">
+                    <a class="socialLink" href="">
+                        <div class="socialLink"><i class="fab fa-facebook-f"></i></div>
+                    </a>
+                    <a class="socialLink" href="">
+                        <div class="socialLink"><i class="fab fa-twitter"></i></div>
+                    </a>
+                    <a class="socialLink" href="">
+                        <div class="socialLink"><i class="fab fa-linkedin-in"></i></div>
+                    </a>
+                    <a class="socialLink" href="">
+                        <div class="socialLink"><i class="fab fa-pinterest-p"></i></div>
+                    </a>
+                    <a class="socialLink" href="">
+                        <div class="socialLink"><i class="fab fa-google-plus-g"></i></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body></html>

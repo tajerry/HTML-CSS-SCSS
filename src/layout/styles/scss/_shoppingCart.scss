@@ -1,0 +1,503 @@
+.productDetails {
+
+    .productHeaders {
+        width: 1140px;
+        margin: 0 auto;
+        justify-content: space-between;
+        padding: 0;
+        border-bottom: 1px solid #eaeaea;
+
+        .productHeadersLeft {
+            .productHeader {
+                color: #222222;
+                font-family: Lato;
+                font-size: 13px;
+                font-weight: 900;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 20px;
+                text-align: left;
+                text-transform: uppercase;
+                /* Text style for "P, roduct" */
+                font-style: normal;
+                letter-spacing: -0.2px;
+                line-height: normal;
+            }
+        }
+
+        .productHeadersRight {
+            justify-content: space-between;
+
+            .productHeader {
+                color: #222222;
+                font-family: Lato;
+                font-size: 13px;
+                font-weight: 900;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 20px;
+                text-align: left;
+                text-transform: uppercase;
+                /* Text style for "P, roduct" */
+                font-style: normal;
+                letter-spacing: -0.2px;
+                line-height: normal;
+
+
+            }
+
+        }
+
+    }
+
+    .productsInCart {
+        border-bottom: 1px solid #eaeaea;
+        padding: 20px 0 20px 0;
+        justify-content: space-between;
+
+        .productName {
+            .productsInCartContent {
+                .products__link {
+                    text-decoration: none;
+                }
+
+                .productsInCartHeader {
+                    color: #222222;
+                    font-family: Lato;
+                    font-size: 13px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+
+                    text-transform: uppercase;
+                    /* Text style for "Mango  Peo" */
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                }
+
+                .productsInCartParametr {
+                    .productsInCartParametrColor {
+                        color: #6f6e6e;
+                        font-family: Lato;
+                        font-size: 13px;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: 20px;
+                        text-align: left;
+                        /* Text style for "C, olor:," */
+                        color: #575757;
+                        font-family: "Lato - Regular";
+                        font-weight: 700;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: normal;
+
+                        span {
+                            font-family: Lato;
+                            font-weight: 300;
+                            font-style: normal;
+                            letter-spacing: normal;
+                            line-height: normal;
+                            font-family: "Lato - Regular";
+                            font-weight: 400;
+                            font-style: normal;
+                            letter-spacing: normal;
+                            line-height: normal;
+                        }
+                    }
+
+                    .productsInCartParametrSize {
+                        color: #6f6e6e;
+                        font-family: Lato;
+                        font-size: 13px;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: 20px;
+                        text-align: left;
+                        /* Text style for "C, olor:," */
+                        color: #575757;
+                        font-family: "Lato - Regular";
+                        font-weight: 700;
+                        font-style: normal;
+                        letter-spacing: normal;
+                        line-height: normal;
+
+                        span {
+                            font-family: Lato;
+                            font-weight: 300;
+                            font-style: normal;
+                            letter-spacing: normal;
+                            line-height: normal;
+                            font-family: "Lato - Regular";
+                            font-weight: 400;
+                            font-style: normal;
+                            letter-spacing: normal;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+
+        .productSpecification {
+            align-items: center;
+
+            .unitePrice {
+                margin-right: 126px;
+                color: #656565;
+                font-family: Lato;
+                font-size: 13px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 20px;
+                text-align: left;
+                /* Text style for "$150" */
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+            }
+
+            .quantity {
+                margin-right: 106px;
+                width: 54px;
+                height: 30px;
+                border: 1px solid #eaeaea;
+                background-color: #ffffff;
+                justify-content: center;
+                color: #656565;
+                font-family: Lato;
+                font-size: 13px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: left;
+                /* Text style for "2," */
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 2;
+
+            }
+
+            input[type="number"]::-webkit-outer-spin-button,
+            input[type="number"]::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+
+            .shipping {
+                margin-right: 118px;
+                text-align: center;
+                color: #656565;
+                font-family: Lato;
+                font-size: 13px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 20px;
+                text-align: left;
+                text-transform: uppercase;
+                /* Text style for "FREE" */
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+            }
+
+            .subtotal {
+                margin-right: 123px;
+                color: #656565;
+                font-family: Lato;
+                font-size: 13px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 20px;
+                text-align: left;
+                /* Text style for "$300" */
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+            }
+        }
+        .action{
+            transition: 0.2;
+            &:hover{
+                transform: scale(1.3);
+                      ;
+            }
+        }
+
+
+
+    }
+
+    .productsButtons {
+        justify-content: space-between;
+
+        .clearShoppingCart,
+        .continueShopping {
+            width: 225px;
+            height: 50px;
+            border: 1px solid #eaeaea;
+            background-color: #ffffff;
+            color: #4a4a4a;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-transform: uppercase;
+            /* Text style for "cONTINUE s" */
+            font-style: normal;
+            text-align: center;
+            transition: 0.2s;
+
+            &:hover {
+                background-color: #f16d7f;
+                color: #ffffff;
+                transform: scale(1.05);
+            }
+        }
+
+
+    }
+}
+
+.productsForm {
+    .productsFormLeft {
+        .productsFormLeftShippingAdress {
+            .productsFormLeftShippingAdressHeader {
+                color: #222222;
+                font-family: Lato;
+                font-size: 16px;
+                font-weight: 900;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: left;
+                text-transform: uppercase;
+            }
+
+            .productsFormLeftShippingAdressCity {
+                width: 355px;
+                height: 45px;
+                border: 1px solid #eaeaea;
+                background-color: #ffffff;
+                padding-right: 12px;
+
+                .productsFormLeftShippingAdressInput {
+                    border: 0;
+                    border-bottom: 1px solid #eaeaea;
+                    padding-left: 18px;
+                    height: 44px;
+
+                }
+
+                .arrowDownLink {
+                    text-decoration: none;
+
+                    img {
+                        width: 9px;
+                        height: 6px;
+
+                    }
+                }
+            }
+
+            .productsFormLeftShippingAdressInput {
+                width: 355px;
+                height: 45px;
+                border: 1px solid #eaeaea;
+                background-color: #ffffff;
+                padding-left: 18px;
+                padding-right: 18px;
+            }
+
+            :not(:first-child) {
+                margin-top: 20px;
+            }
+
+            .productsFormLeftShippingAdressButton {
+                width: 100px;
+                height: 35px;
+                border: 1px solid #eaeaea;
+                background-color: #ffffff;
+                color: #4a4a4a;
+                font-family: Lato;
+                font-size: 11px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+        }
+
+        .productsFormLeftCouponDiscount {
+            margin-left: 35px;
+
+            .productsFormLeftCouponDiscountHeader {
+                color: #222222;
+                font-family: Lato;
+                font-size: 16px;
+                font-weight: 900;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: left;
+                text-transform: uppercase;
+            }
+
+            .productsFormLeftCouponDiscountText {
+                color: #000000;
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: left;
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+
+            .productsFormLeftCouponDiscountInput {
+                width: 355px;
+                height: 45px;
+                border: 1px solid #eaeaea;
+                background-color: #ffffff;
+                padding-left: 18px;
+                padding-right: 18px;
+                margin-bottom: 25px;
+
+            }
+
+            .productsFormLeftCouponDiscountButton {
+                width: 118px;
+                height: 35px;
+                border: 1px solid #eaeaea;
+                background-color: #ffffff;
+                color: #4a4a4a;
+                font-family: Lato;
+                font-size: 11px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .productsFormRight {
+        padding: 42px;
+        width: 360px;
+        height: 214px;
+        background-color: #f5f3f3;
+        align-self: center;
+        margin-left: 36px;
+
+        .productsFormRightTotal {
+            align-items: flex-end;
+            padding-bottom: 22px;
+            margin-bottom: 17px;
+            border-bottom: 1px solid #e2e2e2;
+            color: #ffffff;
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: left;
+            text-transform: uppercase;
+
+            .subTotal {
+                width: 100px;
+                justify-content: space-between;
+
+                .subTotalHeader {
+                    color: #4a4a4a;
+                    font-family: Lato;
+                    font-size: 11px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                    text-align: left;
+                    text-transform: uppercase;
+                }
+
+                .subtotalPrice {
+                    color: #4a4a4a;
+                    font-family: Lato;
+                    font-size: 11px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                    text-align: left;
+                    text-transform: uppercase;
+                }
+            }
+
+            .grandTotal {
+                width: 165px;
+                justify-content: space-between;
+
+                .grandTotalHeader {
+                    color: #222222;
+                    font-family: Lato;
+                    font-size: 16px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                    text-align: left;
+                    text-transform: uppercase;
+                }
+
+                .grandTotalPrice {
+                    color: #f16d7f;
+                    font-family: Lato;
+                    font-size: 16px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                    text-align: left;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .proceedToCheckout {
+            /* Style for "Rectangle" */
+            width: 273px;
+            height: 50px;
+            background-color: #f16d7f;
+            color: #ffffff;
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.2s;
+
+            &:hover {
+                background-color: #ffffff;
+                color: #f16d7f;
+                transform: scale(1.05);
+            }
+        }
+    }
+}

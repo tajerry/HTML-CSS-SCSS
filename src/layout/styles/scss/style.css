@@ -1,0 +1,759 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.center {
+  justify-content: space-between;
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px); }
+
+header {
+  background-color: aqua; }
+  header .row {
+    margin: 0;
+    padding: 0; }
+    header .row .brandForm {
+      margin: 0;
+      padding: 0; }
+      header .row .brandForm .logo .logoHeader {
+        color: #222222;
+        font-family: Lato;
+        font-size: 27px;
+        font-weight: 400;
+        letter-spacing: 0.68px;
+        text-decoration: none; }
+        header .row .brandForm .logo .logoHeader span {
+          font-family: Lato;
+          font-size: 27px;
+          text-transform: uppercase;
+          color: #f16d7f;
+          font-weight: 900;
+          letter-spacing: 0.68px; }
+      header .row .brandForm .headerForm {
+        width: 402px;
+        height: 38px;
+        border-radius: 3px 0 0 3px; }
+        header .row .brandForm .headerForm .browse {
+          width: 87px;
+          height: 38px;
+          border-radius: 3px 0 0 3px;
+          border: 1px solid #e6e6e6;
+          background-color: gainsboro;
+          color: #222222;
+          Font-family: Lato;
+          font-size: 14px;
+          font-weight: 400;
+          letter-spacing: 0.35px; }
+        header .row .brandForm .headerForm .dropdown-menu {
+          width: 262px;
+          border-radius: 5px;
+          background-color: #ffffff; }
+          header .row .brandForm .headerForm .dropdown-menu h2 {
+            color: #232323;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 32px;
+            text-transform: uppercase;
+            letter-spacing: 0.35px; }
+          header .row .brandForm .headerForm .dropdown-menu p {
+            color: #4f4f4f;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0.35px;
+            margin-left: 10px; }
+        header .row .brandForm .headerForm .searchFor {
+          width: 280px;
+          height: 38px;
+          border: 1px solid #e6e6e6;
+          color: #a4a4a4;
+          font-family: Lato;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 32px;
+          letter-spacing: 0.35px; }
+        header .row .brandForm .headerForm .search {
+          width: 38px;
+          height: 38px;
+          border: 1px solid #e6e6e6; }
+    header .row .cartMyAccount .dropdown .cart {
+      background-color: #fff;
+      border: 0; }
+    header .row .cartMyAccount .dropdown .myAccount {
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0.38px;
+      height: 38px;
+      background-color: #f16d7f; }
+    header .row .cartMyAccount .dropdown .dropCart {
+      width: 262px;
+      height: 440px;
+      margin-left: -100px; }
+      header .row .cartMyAccount .dropdown .dropCart .products .cartLink {
+        text-decoration: none; }
+        header .row .cartMyAccount .dropdown .dropCart .products .cartLink .productCart {
+          border-bottom: 1px solid #ededed;
+          justify-content: space-between; }
+          header .row .cartMyAccount .dropdown .dropCart .products .cartLink .productCart .photoProductCart {
+            width: 72px;
+            height: 85px; }
+          header .row .cartMyAccount .dropdown .dropCart .products .cartLink .productCart .productCartContent {
+            height: 60px; }
+            header .row .cartMyAccount .dropdown .dropCart .products .cartLink .productCart .productCartContent .headerproductCart {
+              color: #222222;
+              font-family: Lato;
+              font-size: 12px;
+              font-weight: 700;
+              text-transform: uppercase; }
+            header .row .cartMyAccount .dropdown .dropCart .products .cartLink .productCart .productCartContent .stars {
+              width: 56px;
+              height: 12px; }
+            header .row .cartMyAccount .dropdown .dropCart .products .cartLink .productCart .productCartContent .priceCart {
+              color: #f16d7f;
+              font-family: Lato;
+              font-weight: 400;
+              text-transform: uppercase;
+              /* Text style for "x" */
+              font-size: 10px; }
+          header .row .cartMyAccount .dropdown .dropCart .products .cartLink .productCart .krest {
+            width: 15px;
+            height: 15px;
+            margin-top: 13%; }
+      header .row .cartMyAccount .dropdown .dropCart .totalPrice {
+        margin: 0 auto;
+        width: 228px;
+        justify-content: space-between; }
+        header .row .cartMyAccount .dropdown .dropCart .totalPrice .totalCart {
+          color: #222222;
+          font-family: Lato;
+          font-size: 16px;
+          font-weight: 700;
+          text-transform: uppercase; }
+        header .row .cartMyAccount .dropdown .dropCart .totalPrice .priceTotal {
+          color: #222222;
+          font-family: Lato;
+          font-size: 16px;
+          font-weight: 700;
+          text-transform: uppercase; }
+      header .row .cartMyAccount .dropdown .dropCart .buttonsCart {
+        margin: 0 auto;
+        width: 228px;
+        height: 112px;
+        justify-content: space-between; }
+        header .row .cartMyAccount .dropdown .dropCart .buttonsCart .checkout {
+          width: 228px;
+          height: 50px;
+          color: #f16d7f;
+          font-family: Lato;
+          font-size: 16px;
+          font-weight: 900;
+          text-transform: uppercase;
+          background-color: #fff;
+          border: 1px solid #f16d7f; }
+        header .row .cartMyAccount .dropdown .dropCart .buttonsCart .goToCart {
+          width: 225px;
+          height: 50px;
+          border: 1px solid #eaeaea;
+          background-color: #ffffff;
+          text-transform: uppercase;
+          color: #4a4a4a;
+          font-family: Lato;
+          font-size: 14px;
+          font-weight: 900;
+          text-transform: uppercase; }
+
+.nav {
+  margin-left: 0; }
+  .nav .collapse .navbar-nav .nav-item1 .link1 {
+    color: #222222;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 26px;
+    text-transform: uppercase; }
+  .nav .collapse .navbar-nav .nav-item1 .dropdownNav {
+    background-color: #fff;
+    border: 0;
+    color: #222222;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-top: 2px; }
+  .nav .collapse .navbar-nav .nav-item1 .womenDropDown {
+    left: -115px;
+    width: 846px;
+    height: 370px;
+    justify-content: space-between;
+    border: 0; }
+    .nav .collapse .navbar-nav .nav-item1 .womenDropDown .card {
+      width: 282px;
+      height: 360px;
+      border: 0; }
+      .nav .collapse .navbar-nav .nav-item1 .womenDropDown .card .womenCardTitle {
+        margin: 0;
+        padding: 0;
+        color: #232323;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 32px;
+        text-transform: uppercase;
+        letter-spacing: 0.35px;
+        border-bottom: 1px solid #e8e8e8; }
+      .nav .collapse .navbar-nav .nav-item1 .womenDropDown .card .link2 {
+        color: #646464;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        /* Text style for "Dresses ," */
+        letter-spacing: 0.35px;
+        text-decoration: none;
+        margin-top: 5%;
+        padding: 0; }
+    .nav .collapse .navbar-nav .nav-item1 .womenDropDown .cardCenter {
+      display: flex;
+      flex-direction: column; }
+    .nav .collapse .navbar-nav .nav-item1 .womenDropDown .cardRight {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .nav .collapse .navbar-nav .nav-item1 .womenDropDown .cardRight .bottomRight {
+        width: 255px;
+        height: 118px;
+        background-image: url(../../../assets/img/Layer_42.png);
+        justify-content: flex-end;
+        align-items: flex-end; }
+        .nav .collapse .navbar-nav .nav-item1 .womenDropDown .cardRight .bottomRight .headerBottomRight {
+          color: #ffffff;
+          font-family: Lato;
+          font-size: 22px;
+          font-weight: 700;
+          line-height: 28px;
+          text-transform: uppercase;
+          /* Text style for "S, uper  ," */
+          letter-spacing: 0.55px; }
+
+.slider {
+  max-width: 1600px;
+  margin: 0 auto; }
+  .slider .leftSlider {
+    width: 230px;
+    height: 607px;
+    background-color: #e8e8e8; }
+  .slider .rightSlider {
+    width: 230px;
+    height: 607px;
+    background-color: #e8e8e8; }
+  .slider .centrSlider {
+    width: 1140px;
+    height: 614px;
+    background-image: url(../../../assets/img/sliderBG.png); }
+    .slider .centrSlider .container .row .contentSlider {
+      height: 90px;
+      width: 110%;
+      margin-top: 40%;
+      padding-left: 3%;
+      padding-top: 0;
+      border-left: 13px solid #f16d7f; }
+      .slider .centrSlider .container .row .contentSlider h1 {
+        color: #222222;
+        font-family: Lato;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 60px;
+        letter-spacing: 1.5px;
+        line-height: 0.7; }
+      .slider .centrSlider .container .row .contentSlider h2 {
+        color: #222222;
+        font-family: Lato;
+        font-size: 40px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px; }
+        .slider .centrSlider .container .row .contentSlider h2 span {
+          font-family: Lato;
+          font-size: 40px;
+          font-weight: 900;
+          text-transform: uppercase;
+          color: #f16d7f;
+          letter-spacing: 1px; }
+
+.category .man {
+  width: 560px;
+  height: 542px;
+  background-image: url(../../../assets/img/Layer_30.png); }
+  .category .man .headerCategory {
+    width: 175px;
+    height: 82px;
+    background-color: #ffffff;
+    color: #222222;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    text-align: left;
+    line-height: 1.3; }
+    .category .man .headerCategory span {
+      color: #f16d7f;
+      font-size: 30px;
+      letter-spacing: 0.75px; }
+.category .accesories {
+  width: 560px;
+  min-height: 261px;
+  background-image: url(../../../assets/img/Layer_37.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-color: #dadad2; }
+  .category .accesories .headerCategory {
+    width: 225px;
+    height: 82px;
+    background-color: #ffffff;
+    color: #222222;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    text-align: left;
+    line-height: 1.3; }
+    .category .accesories .headerCategory span {
+      color: #f16d7f;
+      font-size: 30px;
+      letter-spacing: 0.75px; }
+.category .women {
+  width: 560px;
+  height: 261px;
+  background-image: url(../../../assets/img/Layer_32.png); }
+  .category .women .headerCategory {
+    width: 162px;
+    height: 82px;
+    background-color: #ffffff;
+    color: #222222;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    text-align: left;
+    line-height: 1.3; }
+    .category .women .headerCategory span {
+      color: #f16d7f;
+      font-size: 30px;
+      letter-spacing: 0.75px; }
+.category .kids {
+  width: 560px;
+  height: 542px;
+  background-image: url(../../../assets/img/Layer_31.png); }
+  .category .kids .headerCategory {
+    width: 180px;
+    height: 82px;
+    background-color: #ffffff;
+    color: #222222;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    text-align: left;
+    line-height: 1.3; }
+    .category .kids .headerCategory span {
+      color: #f16d7f;
+      font-size: 30px;
+      letter-spacing: 0.75px; }
+
+.featuredItems {
+  text-align: center; }
+  .featuredItems h1 {
+    color: #222222;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0.75px; }
+  .featuredItems p {
+    color: #9f9f9f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 54px;
+    /* Text style for "S, hop for" */
+    letter-spacing: 0.35px; }
+
+.cards {
+  flex-wrap: wrap; }
+  .cards .leftCard,
+  .cards .rightCard {
+    justify-content: space-between;
+    max-width: 1140px;
+    flex-wrap: wrap; }
+    .cards .leftCard .cardLink,
+    .cards .rightCard .cardLink {
+      text-decoration: none; }
+      .cards .leftCard .cardLink .card,
+      .cards .rightCard .cardLink .card {
+        width: 261px;
+        height: 364px; }
+        .cards .leftCard .cardLink .card .card-img-top,
+        .cards .rightCard .cardLink .card .card-img-top {
+          position: relative;
+          height: 281px; }
+        .cards .leftCard .cardLink .card .backgroundCard,
+        .cards .rightCard .cardLink .card .backgroundCard {
+          width: 261px;
+          height: 281px;
+          display: flex;
+          justify-content: center;
+          padding-top: 98px;
+          position: absolute;
+          display: none; }
+          .cards .leftCard .cardLink .card .backgroundCard .addToCard,
+          .cards .rightCard .cardLink .card .backgroundCard .addToCard {
+            padding-left: 4%;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            width: 123px;
+            height: 39px;
+            border: 1px solid #ffffff;
+            color: #ffffff; }
+            .cards .leftCard .cardLink .card .backgroundCard .addToCard .contentCards,
+            .cards .rightCard .cardLink .card .backgroundCard .addToCard .contentCards {
+              margin-left: 7%;
+              margin-top: 14%;
+              text-align: center;
+              color: #ffffff;
+              font-family: Lato;
+              font-size: 13px;
+              font-weight: 700; }
+        .cards .leftCard .cardLink .card h5,
+        .cards .rightCard .cardLink .card h5 {
+          color: #222222;
+          font-family: Lato;
+          font-size: 13px;
+          font-weight: 400;
+          text-transform: uppercase; }
+        .cards .leftCard .cardLink .card .card-text,
+        .cards .rightCard .cardLink .card .card-text {
+          color: #f16d7f;
+          font-family: Lato;
+          font-size: 16px;
+          font-weight: 700;
+          text-transform: uppercase; }
+        .cards .leftCard .cardLink .card:hover .backgroundCard,
+        .cards .rightCard .cardLink .card:hover .backgroundCard {
+          display: flex; }
+        .cards .leftCard .cardLink .card:hover .card-img-top,
+        .cards .rightCard .cardLink .card:hover .card-img-top {
+          filter: brightness(30%); }
+
+.browseAllProducts {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 212px;
+  height: 48px;
+  background-color: #f16d7f;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 54px;
+  /* Text style for "B, rowse A" */
+  letter-spacing: 0.4px; }
+
+.leftOffer {
+  background: url(../../../assets/img/fonZatem.png) no-repeat, url(../../../assets/img/Layer_39.png) no-repeat;
+  background-size: contain;
+  width: 767px;
+  height: 529px; }
+  .leftOffer .leftOfferContent {
+    margin-top: 17%; }
+  .leftOffer .headerOffer1 {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase; }
+    .leftOffer .headerOffer1 span {
+      font-family: Lato;
+      font-size: 54px;
+      font-weight: 700;
+      text-transform: uppercase;
+      /* Text style for "3, 0%" */
+      letter-spacing: 1.5px;
+      /* Text style for "OFFER" */
+      color: #f16d7f;
+      letter-spacing: 1.5px;
+      letter-spacing: 0.9px; }
+  .leftOffer .headerOffer2 {
+    /* Style for "30% OFFER" */
+    width: 293px;
+    height: 78px;
+    color: #ffffff;
+    font-family: Lato;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    /* Text style for "FOR WOMEN" */
+    font-size: 32px;
+    letter-spacing: 0.9px; }
+
+.rightOffer {
+  justify-content: center;
+  width: 373px;
+  height: 529px;
+  background-color: #000;
+  padding-top: 5%; }
+  .rightOffer .boxOffer {
+    margin-left: 10%; }
+    .rightOffer .boxOffer .imgBox {
+      display: block;
+      width: 40px;
+      height: 40px; }
+  .rightOffer .boxOfferContent {
+    margin-left: 8%;
+    width: 221px;
+    height: 106px; }
+  .rightOffer .headerBox {
+    color: #fbfbfb;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    /* Text style for "Free Deliv" */
+    letter-spacing: 0.5px; }
+  .rightOffer .textBox {
+    color: #fbfbfb;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    /* Text style for "W, orldwid" */
+    letter-spacing: 0.35px; }
+
+.productRightOffer {
+  justify-content: center;
+  height: 341px;
+  background-color: #000; }
+  .productRightOffer .boxOffer:not(:last-child) {
+    margin-right: 10%; }
+  .productRightOffer .boxOffer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 308px; }
+    .productRightOffer .boxOffer .imgBox {
+      display: block;
+      width: 40px;
+      height: 40px;
+      margin-bottom: 10%; }
+  .productRightOffer .boxOfferContent {
+    text-align: center;
+    width: 308px;
+    height: 106px; }
+  .productRightOffer .headerBox {
+    color: #fbfbfb;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    /* Text style for "Free Deliv" */
+    letter-spacing: 0.5px;
+    margin-bottom: 5%; }
+  .productRightOffer .textBox {
+    color: #fbfbfb;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    /* Text style for "W, orldwid" */
+    letter-spacing: 0.1px; }
+
+.subscribe {
+  margin: 0 auto;
+  max-width: 1600px;
+  height: 438px;
+  background: url(../../../assets/img/fonGray.png) no-repeat, url(../../../assets/img/Layer_41.png) no-repeat; }
+  .subscribe .leftSubscribe {
+    height: 438px;
+    border-right: 1px solid #fff;
+    padding-top: 10%; }
+    .subscribe .leftSubscribe .imgLeftSubscribe {
+      width: 83px;
+      height: 83px; }
+    .subscribe .leftSubscribe .contentLeft {
+      width: 400px; }
+      .subscribe .leftSubscribe .contentLeft .blockquoteLeftContent {
+        color: #222224;
+        font-family: Lato;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.1px; }
+      .subscribe .leftSubscribe .contentLeft .leftContentHeader {
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 900;
+        letter-spacing: 0.4px;
+        line-height: 26px;
+        color: #f16d7f;
+        line-height: 14px; }
+      .subscribe .leftSubscribe .contentLeft .leftContentText {
+        color: #222224;
+        font-family: Lato;
+        line-height: 26px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+        line-height: 14px; }
+  .subscribe .rightSubscribe {
+    justify-content: center; }
+    .subscribe .rightSubscribe .formSubscribe {
+      justify-content: center;
+      align-items: center; }
+      .subscribe .rightSubscribe .formSubscribe .contentFormSubscribe {
+        text-align: center;
+        width: 300px;
+        height: 41px;
+        justify-content: center; }
+        .subscribe .rightSubscribe .formSubscribe .contentFormSubscribe .headerFormSubscribe {
+          color: #222224;
+          font-family: Lato;
+          font-weight: 700;
+          font-size: 24px;
+          letter-spacing: 0.6px;
+          text-transform: uppercase; }
+          .subscribe .rightSubscribe .formSubscribe .contentFormSubscribe .headerFormSubscribe .textFormSubscribe {
+            color: #222224;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+            letter-spacing: 0.35px; }
+      .subscribe .rightSubscribe .formSubscribe .inputSubscribe {
+        width: 390px;
+        height: 46px;
+        justify-content: center; }
+        .subscribe .rightSubscribe .formSubscribe .inputSubscribe .inputForm {
+          width: 280px;
+          height: 46px;
+          margin-right: 0px;
+          border-radius: 23px 0 0 23px;
+          padding-left: 5%;
+          background-color: #e1e1e1;
+          border: 1px solid #e1e1e1;
+          color: #ffffff;
+          font-family: Lato;
+          font-size: 14px;
+          line-height: 54px;
+          letter-spacing: 0.35px; }
+        .subscribe .rightSubscribe .formSubscribe .inputSubscribe .btnSubscribe {
+          width: 104px;
+          height: 46px;
+          color: #ffffff;
+          margin-left: 0;
+          border-radius: 0 23px 23px 0;
+          background-color: #f16d7f;
+          border: 1px solid #f16d7f; }
+
+.footerNav {
+  margin-top: 10%; }
+  .footerNav .brandLeftFooter {
+    width: 427px; }
+    .footerNav .brandLeftFooter .logoHeader {
+      color: #222222;
+      font-family: Lato;
+      font-size: 27px;
+      font-weight: 400;
+      letter-spacing: 0.68px;
+      text-decoration: none; }
+      .footerNav .brandLeftFooter .logoHeader span {
+        font-family: Lato;
+        font-size: 27px;
+        text-transform: uppercase;
+        color: #f16d7f;
+        font-weight: 900;
+        letter-spacing: 0.68px; }
+  .footerNav .contentLeftFooter .textLeftFooter1 {
+    color: #898989;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.3px; }
+  .footerNav .contentLeftFooter .textLeftFooter2 {
+    color: #898989;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    /* Text style for "Objectivel" */
+    letter-spacing: 0.35px;
+    letter-spacing: 0.3px; }
+
+.rightFooterNav {
+  width: 600px;
+  justify-content: space-between; }
+  .rightFooterNav .columnRightFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; }
+    .rightFooterNav .columnRightFooter .headerColumn {
+      color: #f16d7f;
+      font-family: Lato;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 26px;
+      text-transform: uppercase;
+      /* Text style for "C, OMPANY" */
+      letter-spacing: 0.45px;
+      margin-bottom: 2em; }
+    .rightFooterNav .columnRightFooter .navLinkFooter {
+      text-decoration: none; }
+      .rightFooterNav .columnRightFooter .navLinkFooter .navColumn {
+        color: #898989;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 400;
+        /* Text style for "Home" */
+        letter-spacing: 0.4px;
+        line-height: 59px;
+        /* Text style for "Shop , Abo" */
+        letter-spacing: 0.4px;
+        line-height: 42px; }
+
+.footerCopSoc {
+  margin: 0 auto;
+  max-width: 1617px;
+  height: 79px;
+  background-color: #e6e6e6; }
+  .footerCopSoc .containerFooter {
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px; }
+    .footerCopSoc .containerFooter .social {
+      width: 197px;
+      justify-content: space-between; }
+      .footerCopSoc .containerFooter .social .socialLink {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 32px;
+        height: 32px;
+        background-color: #ffffff;
+        color: #b2b2b2; }
+        .footerCopSoc .containerFooter .social .socialLink:hover .socialLink {
+          background-color: #f16d7f;
+          color: #f7f7f8; }
+
+/*# sourceMappingURL=style.css.map */

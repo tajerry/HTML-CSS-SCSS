@@ -1,0 +1,301 @@
+.catalog {
+    max-width: 1607px;
+    margin: 0 auto;
+
+    &__slider {
+        width: 1607px;
+        height: 777px;
+        border: 1px solid #eaeaea;
+        background-color: #f7f7f7;
+        align-items: center;
+        justify-content: space-between;
+
+        .slider__arrowLink {
+            text-decoration: none;
+
+            .slider__arrow {
+                width: 47px;
+                height: 47px;
+                background-color: #d8d8d8;
+                color: #ffffff;
+                font-family: "Font Awesome";
+                font-size: 24px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: center;
+                /* Text style for "," */
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 2;
+            }
+        }
+
+
+
+
+
+    }
+
+
+    &__product {
+        margin: 0 auto;
+        margin-top: -86px;
+        border: 1px solid #eaeaea;
+        background-color: #ffffff;
+        padding: 0 262px;
+        padding-top: 73px;
+        padding-bottom: 122px;
+        margin-bottom: 119px;
+
+        .productHeaders {
+
+            .headerWomenCollection {
+                color: #f16d7f;
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 24px;
+                text-align: center;
+                text-transform: uppercase;
+                border-bottom: 1px solid #d8d8d8;
+                width: 200px;
+                margin: 0 auto;
+                padding-bottom: 16px;
+            }
+
+            .headerLine {
+                width: 63px;
+                height: 2px;
+                background-color: #ef5b70;
+                margin: 0 auto;
+                margin-top: -2px;
+            }
+
+            .headerMoschino {
+                padding-top: 16px;
+                color: #4d4d4d;
+                font-family: Lato;
+                font-size: 18px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 24px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+
+        .productText {
+            color: #5e5e5e;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: -0.4px;
+            line-height: 24px;
+            text-align: center;
+            padding-top: 67px;
+        }
+
+        .productSpecifications {
+            justify-content: center;
+            padding-top: 28px;
+
+            .material {
+                padding-left: 23px;
+                padding-right: 22px;
+                justify-content: center;
+
+                .materialText {
+                    color: #b9b9b9;
+                    font-family: Lato;
+                    font-size: 14px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: 24px;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+
+                .materialProperty {
+                    color: #2f2f2f;
+                    font-family: Lato;
+                    font-size: 14px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: 24px;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+
+            }
+
+            .designer {
+                justify-content: center;
+                padding-left: 22px;
+
+
+                .designerText {
+                    color: #b9b9b9;
+                    font-family: Lato;
+                    font-size: 14px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: 24px;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+
+                .designerProperty {
+                    color: #2f2f2f;
+                    font-family: Lato;
+                    font-size: 14px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: 24px;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+
+            }
+
+
+        }
+
+        .productPrice {
+            margin-right: 48px;
+            color: #ef5b70;
+            font-family: Lato;
+            font-size: 24px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 24px;
+            text-align: center;
+            /* Text style for "$561" */
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            margin: 0 auto;
+            padding-bottom: 43px;
+        }
+
+        .productParametrs {
+            margin: 0 auto;
+            padding-top: 63px;
+            border-top: 1px solid #d8d8d8;
+            width: 537px;
+            justify-content: space-between;
+
+            .productParametr {
+                .parametrHeader {
+                    color: #2f2f2f;
+                    font-family: Lato;
+                    font-size: 14px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: 24px;
+                    text-align: left;
+                    text-transform: uppercase;
+                }
+
+                .parametrSelect {
+                    justify-content: space-between;
+                    padding-left: 14px;
+                    align-items: center;
+                    width: 144px;
+                    height: 35px;
+                    border: 1px solid #eaeaea;
+                    background-color: #ffffff;
+                    padding-right: 9px;
+
+
+                    .red {
+                        padding-left: 11px;
+                    }
+
+
+                }
+
+                .quantity {
+                    align-items: center;
+                    width: 144px;
+                    height: 35px;
+                    border: 1px solid #eaeaea;
+                    background-color: #ffffff;
+                    text-align: center;
+
+                }
+
+                input[type="number"]::-webkit-outer-spin-button,
+                input[type="number"]::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+            }
+
+        }
+
+        .productButtonLink {
+            text-decoration: none;
+
+            .productButton {
+                margin: 0 auto;
+                margin-top: 28px;
+                width: 537px;
+                height: 55px;
+                border: 1px solid #ef5b70;
+                background-color: #ffffff;
+                justify-content: center;
+                align-items: center;
+                transition: 0.2s;
+
+                .addToCart {
+                    color: #ef5b70;
+                    font-family: Lato;
+                    font-size: 16px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                    text-align: left;
+
+                }
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
+
+
+
+    }
+
+    &__cards {
+        margin-bottom: 73px;
+        .cardsHeader {
+            color: #4d4d4d;
+            font-family: Lato;
+            font-size: 24px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 72px;
+        }
+
+    }
+
+
+}
